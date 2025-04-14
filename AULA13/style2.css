@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 90%;
+    background-image: url(https://wallpapers.com/images/hd/sasuke-vs-naruto-face-to-face-4fk9nndfky9cziic.jpg)
+}
+
+main{
+    background-color: white;
+    background: radial-gradient(circle, rgb(87, 87, 230) 10%, white 70%);
+    width: 30vw;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-shadow: 20px 20px 20px  rgba(0, 0, 0, 0.4) ;
+    
+}
+
+h1{
+    color: rgb(0, 84, 194);
+    display: flex;
+    justify-content: center;
+    font-family: "TopSecret";
+}
+
+h2{
+    color: rgb(16, 189, 233);
+    font-family: "GimmeDanger";
+}
+
+@font-face {
+    font-family: 'TopSecret';
+    src: url(./fontes/Top\ Secret.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'GimmeDanger';
+    src: url(./fontes/Gimme\ Danger.ttf) format(truetype);
+}
+
+p{
+font-family: "LLCooper";
+}
+
+@font-face {
+    font-family: 'LLCooper';
+    src: url(./fontes/LLCOOPER.TTF) format(truetype);
+}
