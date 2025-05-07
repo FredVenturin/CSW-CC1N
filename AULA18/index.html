@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AULA16</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Formulario</h1>
+    <div class="principal">
+        <div class="dados">
+
+            <h1 class="titulo">Dados pessoais</h1>
+            <form action="mailto:frederico.venturin@gmail.com" method="post">
+                <label for="text">Nome:</label><br>
+                <input type="text" class="cinput"><br><br>
+
+                <label for="number">Idade:</label><br>
+                <input type="number" class="cinput"><br><br>
+
+                <label for="email">email:</label><br>
+                <input type="email" class="cinput" name="email" placeholder="insira seu email"><br><br>
+
+                <label for="color">Escolha uma cor</label><br>
+                <input type="color"><br> <br>
+
+                <label for="data e hora">Data e Hora</label><br>
+                <input type="datetime-local" class="cinput"><br><br>
+
+                <label>Selecione um arquivo</label><br>
+                <input type="file" name="Escolha o arquivo" class="cinput"><br><br>
+
+        </div>
+        <div class="log">
+            <div class="login">
+                <h1 class="titulo">Login</h1>
+                <label for="email">email:</label><br>
+                <input type="email" class="cinput" name="email" placeholder="insira seu email"><br><br>
+
+                <label for="password">senha:</label><br>
+                <input type="password" class="cinput" name="password" placeholder="insira sua senha"><br><br>
+            </div>
+            <div class="log2">
+                <div class="check" id="check">
+                    <label for=""></label>
+                    <input type="checkbox"> Opção 1 <br>
+                    <input type="checkbox"> Opção 2<br>
+                    <input type="checkbox"> Opção 3
+                </div>
+                <div class="radio" id="radio">
+                    <label for=""></label>
+                    <input type="radio" name="opcoes"> Opção 1 <br>
+                    <input type="radio" name="opcoes"> Opção 2<br>
+                    <input type="radio" name="opcoes"> Opção 3
+                </div>
+            </div>
+        </div>
+
+
+        <div class="coment">
+            <div class="comenttop">
+                <p>Deixe um comentario:</p>
+                <textarea name="comentario" cols="50" rows="10" placeholder="Escreva aqui um comentario"
+                    readonly></textarea>
+            </div>
+            <div class="sport">
+                <label for="esporte favorito">Esporte favorito</label>
+                <select name="esportes" size="1">
+                    <option value="">selecione</option>
+                    <option value="basquete">basquete</option>
+                    <option value="futebol">futebol</option>
+                    <option value="volei">volei</option>
+                    <option value="handball">handball</option>
+                </select>
+            </div>
+        </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
