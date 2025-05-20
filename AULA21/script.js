@@ -1,12 +1,9 @@
+function calculadoraIdade() {
+    var idadePessoa = document.getElementById("idade").value;
 
-
-function calculadoraIdade () {
-    var idadePessoa =  document.getElementById("idade").value;
-    if (1 >= idadePessoa <= 11) {
-    window.alert ("Você é uma criança!");
+    if (idadePessoa >= 1 && idadePessoa <= 11) {
+        window.alert("Você é uma criança!");
     } else {
-        window.alert ("viado")
+        window.alert("Você não é uma criança.");
     }
-
-    
 }
